@@ -1,0 +1,5 @@
+ip=192.168.0.12
+debug_port=3245
+remote_dir=/home/lvuser
+app=app
+bitfile_name=fpga.lvbitx

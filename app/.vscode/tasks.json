@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "deploy-debug",
+            "type": "shell",
+            "command": "./scripts/deploy-debug.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "pre-launch",
+            "type": "shell",
+            "command": "./scripts/pre-launch.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "deploy-release",
+            "type": "shell",
+            "command": "./scripts/deploy-release.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "fpga-apigen",
+            "type": "shell",
+            "command": "nifpga-apigen ./src/fpga/NiFpga_fpga.h -g",
+            "problemMatcher": []
+        }
+    ]
+}

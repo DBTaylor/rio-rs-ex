@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/target/armv7-unknown-linux-gnueabi/debug/app",
+      "miDebuggerPath": "C:\\gcc-linaro-i686-mingw32_arm-linux-gnueabi\\bin\\arm-linux-gnueabi-gdb.exe",
+      "miDebuggerServerAddress": "192.168.0.12:3245",
+      "args": [],
+      "stopAtEntry": true,
+      "preLaunchTask": "pre-launch",
+      "cwd": "${workspaceRoot}",
+      "environment": [],
+      "externalConsole": true,
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "gdb"
+      },
+      "windows": {
+        "MIMode": "gdb"
+      }
+    }
+  ]
+}
