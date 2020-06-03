@@ -46,6 +46,7 @@ To change the IP Address, change:
 
 To change the target admin password, change:
 * app/scripts/password ```password=```
+* Prevent the password file from being committed ```git rm --cached app/scripts/password```
 
 To change the binary name, change:
 * app/Cargo.toml ```name = "app"```
